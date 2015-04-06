@@ -38,9 +38,9 @@ echo -e "\n\e[0;31mPatching SETTINGS:\e[0;34m"
 cd $BASEDIR/packages/apps/Settings
 patch -p1 -N -i$PATCHERDIR/settings.patch
 
-echo -e "\n\e[0;31mPatching BUILD:\e[0;34m"
-cd $BASEDIR/build
-patch -p1 -N -i$PATCHERDIR/build.patch
+#echo -e "\n\e[0;31mPatching BUILD:\e[0;34m"
+#cd $BASEDIR/build
+#patch -p1 -N -i$PATCHERDIR/build.patch
 
 echo -e "\n\e[0;31mPatching ART:\e[0;34m"
 cd $BASEDIR/art
