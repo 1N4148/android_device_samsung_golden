@@ -42,8 +42,8 @@ patch -p1 -N -i$PATCHERDIR/settings.patch
 #cd $BASEDIR/build
 #patch -p1 -N -i$PATCHERDIR/build.patch
 
-echo -e "\n\e[0;31mPatching ART:\e[0;34m"
-cd $BASEDIR/art
-patch -p1 -N -i$PATCHERDIR/art.patch
+#echo -e "\n\e[0;31mPatching ART:\e[0;34m"
+#cd $BASEDIR/art
+#patch -p1 -N -i$PATCHERDIR/art.patch
 
 echo -e "\n\e[0;32mEverything (probably) patched, have a nice day!\e[0m"
